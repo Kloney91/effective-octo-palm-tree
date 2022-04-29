@@ -1,0 +1,17 @@
+{
+  "name": "bots-and-me",
+  "version": "1.0.0",
+  "description": "My first bot",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/main.js",
+  "scripts": {
+    "test": "node ./src/main.js"
+  },
+  "author": "Kyle Loney",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "esm": "^3.2.25"
+  }
+}
